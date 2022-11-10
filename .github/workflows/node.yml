@@ -8,7 +8,7 @@ jobs:
   build:
     env:
       CI: true #Disables --watch mode in tests
-      # PORT: 8000
+      NAME: 'Durim Gashi Full Stack Developer'
     strategy:
       matrix:
         node-version: [14.x, 16.x]
